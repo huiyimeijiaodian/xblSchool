@@ -1,5 +1,6 @@
-app端学堂页面
-Build Setup
+#app端学堂页面
+#采用webpack+vue+vuecli构建
+#使用es6语法
 
 # install dependencies
 npm install
