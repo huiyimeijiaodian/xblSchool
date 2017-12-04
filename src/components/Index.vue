@@ -83,7 +83,7 @@
       ajaxSeries(seriesId) {
         console.log('加载中...');
         this.$refs.loadmask.showLoadmask();
-         // axios ajax请求
+         // axios => ajax请求
         this.$http.get('../../series.json').then((m) => {
           console.log('加载完毕');
           this.$refs.loadmask.showLoadmask();
